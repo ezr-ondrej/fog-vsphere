@@ -26,6 +26,12 @@ Or install it yourself as:
 gem install fog-vsphere
 ```
 
+## Upgrading
+
+In version 3.0.0 we had changed the namespacing of Compute.
+So `Fog::Compute::Vsphere` became `Fog::Vsphere::Compute`.
+We hope we are not causing any issues as `Fog::Compute[:vsphere]` is only public API.
+
 ## Usage
 
 To connect to your vSphere instance with Fog vSphere:
